@@ -12,25 +12,49 @@
 # - O[1] space as storing fixed.
 # - O[n] space
 
+#Better
+#Sort array O[nlogn]
+#Go thru each element
+#Count no of negatives (and)
+#Store abs value of each element. 
+#if odd no of negatives - product is last 3 of sorted array. 
+#if even no of negatives - and prdocut of last 3.
+#O[nlogn]
+#O[n]
+
+
+#better
+#store the product of 3.
+#iterate thru loop and store 
 
 
 def get_product_of_3(array_of_ints)
-  return 0 if array_of_ints.length < 2
+  return 0 if array_of_ints.length < 3
   
-  max_1 = array_of_ints[0]
-  max_2 = array_of_ints[1]
-  max_3 = array_of_ints[2]
-  array_of_ints[3...array_of_ints.length].each do |each_int|
-    max_1, min_of_max_1 = [max_1, each_int].max, [max_1, each_int].min
-    puts "max1 = #{max_1} :  leftover = #{min_of_max_1}"
+  highest_number, lowest_number = [array_of_ints[0], array_of_ints[1]].max, [array_of_ints[0], array_of_ints[1]].min
+  product_of_highest_two = highest_number * lowest_number
+  product_of_lowest_two = highest_number * lowest_number
+  max_prod = product_of_highest_two * array_of_ints[2]
+  
+  array_of_ints[2...array_of_ints.length].each do |value|
+    puts "\nhighest_number:#{highest_number}, lowest_number:#{lowest_number}, max_prod:#{max_prod}, value: #{value}"
+  
+    new_max_product = [(product_of_highest_two * value), (product_of_lowest_two * value)].max
+    puts "new_max_product#{new_max_product}"
+    max_prod = [max_prod, new_max_product].max
+    puts "max_prod: #{max_prod}"
     
-    max_2, min_of_max_2 = [max_2, min_of_max_1].max, [max_2, min_of_max_1].min
-    puts "max2 = #{max_2} :  leftover = #{min_of_max_2}"
+    product_of_highest_two = [(highest_number * value), (lowest_number * value), product_of_highest_two].max
+    puts "product_of_highest_two: #{product_of_highest_two}"
+    product_of_lowest_two = [(highest_number * value), (lowest_number * value), product_of_highest_two].min
+    puts "product_of_lowest_two: #{product_of_lowest_two}"
     
-    max_3 = [max_3, min_of_max_2].max
-    puts "max2 = #{max_3}"
+    highest_number = [highest_number, value].max
+    puts "highest_number: #{highest_number}"
+    lowest_number = [lowest_number, value].min
+    puts "lowest_number: #{lowest_number}"
   end
-  max_1 * max_2 * max_3
+  max_prod
 end
 
 
@@ -40,12 +64,15 @@ def test
   two = get_product_of_3([10, 7, 100])
   three = get_product_of_3([-10, 7, 100])
   four = get_product_of_3([-10, 7, 100, 1])
-  
+  five = get_product_of_3([1, 3, 2, -5, -4])
+  six = get_product_of_3([-5, -4, 1, 3, 2])
   puts "\nOne: Input: [10, 7, 5, 8, 11, 9] -> Output: #{one}"
   puts "\nTwo: Input: [10, 7, 100] -> Output: #{two}"
   puts "\nThree: Input: [-10, 7, 100] -> Output: #{three}"
   puts "\nFour: Input: [-10, 7, 100, 1] -> Output: #{four}"
-  
+  puts "\nFive: Input: [1, 3, 2, -5, -4] -> Output: #{five}"
+  puts "\nSix: Input: [-5, -4, 1, 3, 2] -> Output: #{six}"
 end
 
 test
+
