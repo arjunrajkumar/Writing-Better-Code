@@ -13,4 +13,4 @@ __Dec 5th:__
 2. [Highest Product](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/highest_product.rb)
 
 __Dec 6th:__ 
-3. [Product of every integer](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/product_of_every_integer.rb)
+3. [Product of every integer](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/product.rb)
