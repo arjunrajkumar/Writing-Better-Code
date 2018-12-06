@@ -14,3 +14,4 @@ __Dec 5th:__
 
 __Dec 6th:__ 
 3. [Product of every integer](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/product.rb)
+4. [Single Riffle Shuffle](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/single_riffle_shuffle.rb)
