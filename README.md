@@ -20,3 +20,5 @@ __Dec 7th:__
 5. [In-place Shuffle](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/inplace_shuffle.rb)
 6. [Rotation Point](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/rotation_point.rb)
 
+__Dec 8th:__ 
+7. [Duplicate Space Edition](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/space_edition.rb)
