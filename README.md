@@ -22,3 +22,4 @@ __Dec 7th:__
 
 __Dec 8th:__ 
 7. [Duplicate Space Edition](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/space_edition.rb)
+8. [Sorted Scores](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/sorted_scored.rb)
