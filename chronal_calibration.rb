@@ -27,7 +27,7 @@ end
 #Part2
 #logic
 #Take the input. 
-#iterate over loop and add accordingly.
+#iterate over eac line in file 
 #Store the sum as an index in a hash. 
 #if index already exists. Break the loop. 
 #Return the hash key
