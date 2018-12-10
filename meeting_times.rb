@@ -39,23 +39,3 @@ def test
 end
 
 test
-
-#Nice Ruby hack: 
-If you have an array e.g. players = ["pele", "jordan", "sachin"]
-
-Then you can assign each of these to 3 different variables with this one line:
-football, basketball, cricket = players
-
-#so you get 3 variables:
-football => pele
-basketball => jordan
-cricket => sachin
-
-
-
-def test
-  one = meeting_times([[0, 1], [3, 5], [4, 8], [10, 12], [9, 10]])
-  puts "\nOne: Input: [[0, 1], [3, 5], [4, 8], [10, 12], [9, 10]] -> Output: #{one}"
-end
-
-test

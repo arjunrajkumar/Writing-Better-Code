@@ -30,5 +30,5 @@ __Dec 9th:__
 
 __Dec 9th:__ 
 11. [Meging Meeting Times](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/meeting_times.rb)
-
+12. [Balanced Binary Tree](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/balanced_binary_tree.rb)
 
