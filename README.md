@@ -28,7 +28,10 @@ __Dec 9th:__
 9. [Chronal Calibration - Part 1](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/chronal_calibration.rb)
 10. [Chronal Calibration - Part 2](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/chronal_calibration.rb)
 
-__Dec 9th:__ 
+__Dec 10th:__ 
 11. [Meging Meeting Times](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/meeting_times.rb)
 12. [Balanced Binary Tree](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/balanced_binary_tree.rb)
 
+
+__Dec 11th:__ 
+13. [Binary Search Tree](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/binary_search_tree.rb)
