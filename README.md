@@ -35,3 +35,4 @@ __Dec 10th:__
 
 __Dec 11th:__ 
 13. [Binary Search Tree](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/binary_search_tree.rb)
+14. [Second Largest Item](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/second_largest_item.rb)
