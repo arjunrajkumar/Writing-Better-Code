@@ -36,3 +36,9 @@ __Dec 10th:__
 __Dec 11th:__ 
 13. [Binary Search Tree](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/binary_search_tree.rb)
 14. [Second Largest Item](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/second_largest_item.rb)
+
+__Dec 12th:__ 
+15. [Graph Colouring](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/graph_colouring.rb)
+16. [Shortest Route](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/shortest_route.rb)
+
+
