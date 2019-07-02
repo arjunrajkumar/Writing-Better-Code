@@ -41,4 +41,4 @@ __Dec 12th:__
 15. [Graph Colouring](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/graph_colouring.rb)
 16. [Shortest Route](https://github.com/arjunrajkumar/Writing-Better-Code/blob/master/shortest_route.rb)
 
-
+By [Arjun Rajkumar](https://www.arjunrajkumar.in/)
